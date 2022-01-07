@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ทดสอบ i18n</string>
+
+    <string name="text_one">หนึ่ง</string>
+    <string name="text_two">สอง</string>
+    <string name="text_three">สาม</string>
+    <string name="btn_one">ภาษา 1</string>
+    <string name="btn_two">ภาษา 2</string>
+</resources>

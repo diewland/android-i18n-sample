@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">i18n Demo</string>
+
+    <string name="text_one">One</string>
+    <string name="text_two">Two</string>
+    <string name="text_three">Three</string>
+    <string name="btn_one">Lang 1</string>
+    <string name="btn_two">Lang 2</string>
+</resources>
