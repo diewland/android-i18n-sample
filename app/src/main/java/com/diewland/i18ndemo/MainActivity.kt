@@ -25,13 +25,14 @@ class MainActivity : AppCompatActivity() {
     private fun changeLang(langCode: String="en") {
         Log.d("LANG", "change language to $langCode")
 
-        // change locale, effect to dialog immediately
+        // change locale
         LocaleHelper.setLocale(this, langCode)
 
-        // test by open dialog
+        // (1) dialog get this effect immediately
         ScreenUtil.openDialog(this)
 
-        // TODO update current screen text
+        // (2) current screen must manual update
+        ScreenUtil.updateScreen(this)
     }
 
 }

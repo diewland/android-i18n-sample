@@ -10,6 +10,7 @@ import android.preference.PreferenceManager;
 
 import java.util.Locale;
 
+// https://github.com/gunhansancar/ChangeLanguageExample/blob/master/app/src/main/java/com/gunhansancar/changelanguageexample/helper/LocaleHelper.java
 /**
  * This class is used to change your application locale and persist this change for the next time
  * that your app is going to be used.
